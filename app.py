@@ -159,16 +159,5 @@ if uploaded_file is not None:
     )
     st.pyplot(fig_dt)
 
-    # Interview Questions
-    st.header("8. Interview Questions")
-    st.markdown("""
-    1. Difference between Accuracy and F1 Score?
-    2. When should Recall be preferred over Precision?
-    3. What does ROC-AUC represent?
-    4. Why use a Precision-Recall Curve?
-    5. How does a Decision Tree decide its splits?
-    6. How can overfitting in Decision Trees be reduced?
-    """)
-
 else:
     st.info("Upload the IBM HR Analytics CSV file to begin.")
